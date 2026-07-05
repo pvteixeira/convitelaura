@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>❤️ Um Convite Especial ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div id="particles"></div>
+
+    <div class="container">
+
+        <!-- TELA 1 -->
+
+        <section class="screen active" id="screen1">
+
+            <h1>❤️ Oi Laura...</h1>
+
+            <p>
+
+                Tenho uma surpresa preparada especialmente para você.
+
+            </p>
+
+            <button id="btnStart">
+
+                Começar ✨
+
+            </button>
+
+        </section>
+
+        <!-- TELA 2 -->
+
+        <section class="screen" id="screen2">
+
+            <div class="envelope">
+
+                💌
+
+            </div>
+
+            <h2>
+
+                Você recebeu um convite.
+
+            </h2>
+
+            <button id="btnOpen">
+
+                Abrir convite
+
+            </button>
+
+        </section>
+
+        <!-- TELA 3 -->
+
+        <section class="screen" id="screen3">
+
+            <h1>💖</h1>
+
+            <p id="letter"></p>
+
+            <button id="btnContinue">
+
+                Continuar
+
+            </button>
+
+        </section>
+
+        <!-- TELA 4 -->
+
+        <section class="screen" id="screen4">
+
+            <h1>
+
+                Aceita sair comigo?
+
+            </h1>
+
+            <div class="buttons">
+
+                <button id="btnYes">
+
+                    SIM ❤️
+
+                </button>
+
+                <button id="btnNo">
+
+                    NÃO 😅
+
+                </button>
+
+            </div>
+
+            <div id="funnyMessage"></div>
+
+        </section>
+
+        <!-- TELA 5 -->
+
+        <section class="screen" id="screen5">
+
+            <h1>
+
+                🎉 Eu sabia!
+
+            </h1>
+
+            <p>
+
+                Agora escolha um dia para nosso encontro.
+
+            </p>
+
+            <input type="date" id="meetingDate">
+
+            <input type="time" id="meetingTime">
+
+            <button id="btnConfirm">
+
+                Confirmar ❤️
+
+            </button>
+
+        </section>
+
+        <!-- TELA 6 -->
+
+        <section class="screen" id="screen6">
+
+            <h1>
+
+                🏆 Convite Confirmado!
+
+            </h1>
+
+            <p id="summary"></p>
+
+            <div class="reward">
+
+                <h3>Recompensas desbloqueadas:</h3>
+
+                <p> 🐹 Prometo de dar um porquinho da india</p>
+
+                <p>😅 Vou aceitar suas piadas Ruins</p>
+
+                <p>😎 Minha ilustre presença</p>
+
+                <p>❤️ Ótima companhia</p>
+
+            </div>
+
+            <button id="btnWhatsapp">
+
+                💬 Confirmar no WhatsApp
+
+            </button>
+
+        </section>
+
+    </div>
+
+    <canvas id="confetti"></canvas>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
